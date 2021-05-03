@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+}
+
+h2{
+    font-size: 1.7em;
+}
+h3{
+    font-size: 1em;
+}
+p{
+    font-size: 1.3em;
+}
+/*---HEADER---*/
+header{
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+}
+header a:link{
+    color: grey;
+    padding: 20px 30px 20px 30px;
+    border-bottom: solid;
+}
+
+
+/*---RECHERCHE---*/
+/*---barre de recherche---*/
+.barre_recherche{
+    justify-content: center;
+    
+}
+.button{
+    display: none;
+}
+.icon_search i{
+    visibility: inherit;
+    background-color: #0065FC;
+    color: #DEEBFF;
+    border-radius: 25%;
+}
+/*---filtree---*/
+.recherche{
+    margin: 0;
+}
+.filtres{
+    max-width: 400px;
+    flex-wrap: wrap;
+}
+.filtres div{
+   margin: 0 10px 0 10px;
+}
+
+
+
+/*---HEBERGEMENT---*/
+#hebergement{
+    flex-direction: column-reverse;
+    border-radius: 0;
+    margin: 0;
+    
+}
+.hebergement img{
+    max-width: 340px;
+    object-fit: cover;
+}
+.sous_hebergement{
+    margin: 5px; 
+}
+
+#populaires, .marseille{
+    border-radius: 0;
+    margin: 0;
+}
+.marseille{
+    background-color: white;
+}
+#populaires{
+    max-width: 414px;
+}
+.populaire{
+    width: 330px;
+}
+
+.hebergement{
+    width: 340px;
+}
+
+
+/*---ACTRIVITES---*/
+#activites{
+    flex-direction: column;
+}
+.sous_activites{
+    flex-direction: column;
+}
+.sous_activites_1, .sous_sous_activites, .sous_activites_2, .sous_activites_3{
+    width: 340px;
+    height: 180px;
+}
+.sous_activites_1 img, .sous_activites_2 img, ; .sous_activites_3 img{
+    max-width: 340px;
+    height: 100px;
+}
+
+.activites{
+    margin: 0px;
+}
+.sous_sous_activites{
+    flex-direction: column;
+}
+
+
+/*---FOOOTER---*/
+footer{
+    flex-direction: column;
+}
+.footer{
+    margin-right: 0;
+}
+.footer h3{
+    margin: 0;
+}
+footer ul{
+    font-size: 1.5em;
+}
