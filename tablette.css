@@ -15,12 +15,15 @@ p{
 header{
     flex-direction: column;
     align-items: flex-start;
-    margin: 0;
+    margin:0;
 }
-header a:link{
-    color: grey;
-    padding: 20px 30px 20px 30px;
-    border-bottom: solid;
+header img{
+    height: 50px;
+    margin: 20px;
+}
+header a{
+    padding: 0 15px 15px 15px;
+    border-bottom: #F2F2F2 solid;
 }
 
 
@@ -28,20 +31,35 @@ header a:link{
 /*---barre de recherche---*/
 .barre_recherche{
     justify-content: center;
-    
+}
+.barre_recherche i{
+    font-size: 20px;
+    padding: 15px;
+}
+.input{
+    height: 50px;
+}
+::-webkit-input-placeholder{
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
 }
 .button{
     display: none;
 }
 .icon_search i{
     visibility: inherit;
+    font-size: 1.1em;
+    padding: 17SSpx;
     background-color: #0065FC;
     color: #DEEBFF;
     border-radius: 25%;
 }
 /*---filtree---*/
 .recherche{
-    margin: 0;
+    margin: 40px 20px 0 20px;
 }
 .filtres{
     max-width: 400px;
@@ -50,7 +68,12 @@ header a:link{
 .filtres div{
    margin: 0 10px 0 10px;
 }
-
+.information{
+    margin: 10px 0 10px 0 ;
+}
+.information p{
+    font-size: 0.8em;
+}
 
 
 /*---HEBERGEMENT---*/
@@ -73,9 +96,14 @@ header a:link{
     margin: 0;
 }
 .marseille{
+    align-items: center;
     background-color: white;
 }
+.marseille h2{
+    margin: 0;
+}
 #populaires{
+    align-items: center;
     max-width: 414px;
 }
 .populaire{
@@ -94,18 +122,19 @@ header a:link{
 .sous_activites{
     flex-direction: column;
 }
-.sous_activites_1, .sous_sous_activites, .sous_activites_2, .sous_activites_3{
+.sous_activites a{
     width: 340px;
-    height: 180px;
+    height: 140px;
 }
-.sous_activites_1 img, .sous_activites_2 img, ; .sous_activites_3 img{
+.sous_activites_1 img, .sous_activites_2 img, .sous_activites_3 img{
     max-width: 340px;
     height: 100px;
 }
-
 .activites{
     margin: 0px;
+    align-items: center;
 }
+
 .sous_sous_activites{
     flex-direction: column;
 }
