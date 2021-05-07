@@ -44,7 +44,9 @@ header strong{
     color: #0065FC;
     font-weight: 600;
 }
-
+.inscrire{
+    visibility: hidden;
+}
 
 
 /*--- SECTION RECHERCHE ---*/
@@ -79,6 +81,10 @@ header strong{
     padding: 0 10px 0 10px;
     border-radius: 0 8px 8px 0;
 }
+.button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
 .icon_search i{
     visibility: hidden;
 }
@@ -111,6 +117,11 @@ p{
     display: flex;
     align-items: center;
 }
+.filtres div:hover{
+    color: #0065FC;
+    cursor: pointer;
+}
+
 .filtres i{
     font-size: 15px;
     width: 15px;
@@ -220,6 +231,13 @@ p{
 .marseille h2{
     margin-left: 30px;
 }
+.marseille h3{
+    margin-left: 30px;
+}
+.marseille h3:hover{
+    color: #0065FC;
+    cursor: pointer;
+}
 /*---SECTION POPULAIRE---*/
 #populaires{
     max-width: 300px;
@@ -232,6 +250,10 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+}
+.titre_populaires i:hover{
+    color: #0065FC;
+    cursor: pointer;
 }
 .sous_populaire{
     flex-direction: column;

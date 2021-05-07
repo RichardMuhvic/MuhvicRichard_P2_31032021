@@ -3,13 +3,13 @@ body{
 }
 
 h2{
-    font-size: 1.7em;
+    font-size: 1.5em;
 }
 h3{
     font-size: 1em;
 }
 p{
-    font-size: 1.3em;
+    font-size: 1em;
 }
 /*---HEADER---*/
 header{
@@ -17,15 +17,58 @@ header{
     align-items: flex-start;
     margin:0;
 }
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    width: 85%;
+}
+.logo a{
+    margin-bottom: 10px;
+}
+.inscrire{
+    font-size: 0.9em;
+    font-weight: 600;
+    color: #0065FC;
+    border: none;
+    visibility: inherit;
+}
 header img{
     height: 50px;
-    margin: 20px;
-}
-header a{
-    padding: 0 15px 15px 15px;
-    border-bottom: #F2F2F2 solid;
 }
 
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+header nav li{
+    text-align: center;
+    font-size: 0.9em;
+    padding: 15px;
+    border-bottom: #F2F2F2 solid;
+    width: 100%;
+}
+header li:hover{
+    color:#0065FC;
+    border-bottom: #0065FC solid;
+    width: 100%;
+}
+header a:hover{
+    color: #0065FC;
+    font-weight: 600;
+}
+header nav li a{
+    font-size: 0.9em;
+    font-weight: 300;
+}
+header li:nth-child(0n+3){
+    visibility: collapse;
+    display: none;
+}
 
 /*---RECHERCHE---*/
 /*---barre de recherche---*/
@@ -38,6 +81,7 @@ header a{
 }
 .input{
     height: 50px;
+    width: 250px;
 }
 ::-webkit-input-placeholder{
     color: black;
@@ -52,7 +96,7 @@ header a{
 .icon_search i{
     visibility: inherit;
     font-size: 1.1em;
-    padding: 17SSpx;
+    padding: 17px;
     background-color: #0065FC;
     color: #DEEBFF;
     border-radius: 25%;
@@ -62,8 +106,14 @@ header a{
     margin: 40px 20px 0 20px;
 }
 .filtres{
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
     max-width: 400px;
     flex-wrap: wrap;
+}
+.filtres_titre{
+    margin: 10px 10px 0 10px;
 }
 .filtres div{
    margin: 0 10px 0 10px;
@@ -80,8 +130,10 @@ header a{
 #hebergement{
     flex-direction: column-reverse;
     border-radius: 0;
-    margin: 0;
-    
+    margin: 0;  
+}
+.hebergement{
+    width: 340px;
 }
 .hebergement img{
     max-width: 340px;
@@ -102,16 +154,27 @@ header a{
 .marseille h2{
     margin: 0;
 }
+.marseille h3 a:hover{
+    color: #0065FC;
+    text-decoration: underline;
+}
 #populaires{
     align-items: center;
-    max-width: 414px;
+    max-width: 100%;
 }
 .populaire{
     width: 330px;
 }
-
-.hebergement{
-    width: 340px;
+.titre_populaires{
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.titre_populaires h2{
+    margin: 0 60px 0 0;
+}
+.sous_populaire{
+    align-items: center;
 }
 
 
