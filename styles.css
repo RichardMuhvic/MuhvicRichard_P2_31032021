@@ -18,7 +18,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:  10px 30px 30px 30px;
+    margin:  0px 30px 30px 30px;
 }
 header img{
     height: 30px;
@@ -34,11 +34,11 @@ header a{
     color: black;
     text-decoration: none;
 }
-header a:focus{
+header a:focus, header a:active{
     color: #0065FC;
     font-weight: 600;
     padding: 20px 20px 20px 20px;
-    border-top: solid;
+    border-top: #0065FC solid;
 }
 header strong{
     color: #0065FC;
