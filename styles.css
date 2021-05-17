@@ -231,8 +231,8 @@ p{
 .marseille h1{
     margin-left: 30px;
 }
-.marseille h2{
-    ;
+.marseille h2 a{
+    margin-left: 30px;
 }
 .marseille h2:hover{
     color: #0065FC;
