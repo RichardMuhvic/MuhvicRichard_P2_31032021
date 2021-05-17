@@ -2,11 +2,11 @@
 body{
     font-family: 'Raleway', sans-serif;
 }
-h2{
+h1{
     font-size: 13px;
     font-weight: 700;
 }
-h3{
+h2{
     font-size: 10px;
     font-weight: 700;
 }
@@ -95,7 +95,7 @@ header strong{
     padding: 7px;
     border-radius: 8px 0 0 8px;
 }
-h2{
+h1{
     font-size: 15px;
     font-weight: bold;
     margin-bottom: 0;
@@ -133,11 +133,11 @@ p{
     padding: 11px;
     border-radius: 50%;
 }
-.filtres h3{
+.filtres h2{
     font-size: 15px;
     font-weight: bold;
 }
-.filtres div h3{
+.filtres div h2{
     font-size: 13px;
     font-weight: 600;
     padding: 10px;
@@ -189,7 +189,7 @@ p{
     flex-wrap: wrap;
     justify-content: center;
 }
-.marseille_hebergements h3, .sous_populaires h3{
+.marseille_hebergements h2, .sous_populaires h2{
     font-size: 12px;
     margin: 2px;
 }
@@ -228,13 +228,13 @@ p{
     margin: 2px;
     margin-top: 3px;
 }
-.marseille h2{
+.marseille h1{
     margin-left: 30px;
 }
-.marseille h3{
+.marseille h2{
     ;
 }
-.marseille h3:hover{
+.marseille h2:hover{
     color: #0065FC;
     cursor: pointer;
 }
@@ -295,7 +295,7 @@ p{
     flex-direction: column;
     margin: 30px;
 }
-.activites h2{
+.activites h1{
     margin-left: 10px;
 }
 #activites{
@@ -307,7 +307,7 @@ p{
     display: flex;
     flex-direction: row;
 }
-.sous_activites h3{
+.sous_activites h2{
     margin: 10px;
 }
 .sous_sous_activites{
@@ -367,7 +367,7 @@ footer{
     flex-direction: column;
     margin-right: 200px;
 }
-.footer h3{
+.footer h2{
     margin-top: 0;
 }
 .footer ul{
