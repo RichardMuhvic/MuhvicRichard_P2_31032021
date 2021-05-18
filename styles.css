@@ -311,16 +311,8 @@ p{
 .sous_activites h2{
     margin: 10px;
 }
-#activites{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 
-}
 
-.activites_1, .activites_2, .activites_3, .activites_4, .activites_5, .activites_6{
-
-}
-/* .sous_sous_activites{
+.sous_sous_activites{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -363,7 +355,7 @@ p{
     text-decoration: none;
     color: black;
 }
-*/
+
 
 /*---FOOTER---*/
 footer{
