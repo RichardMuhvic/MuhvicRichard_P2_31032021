@@ -3,7 +3,7 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 h1{
-    font-size: 13px;
+    font-size: 1.2em;
     font-weight: 700;
 }
 h2{
@@ -94,11 +94,6 @@ header strong{
     background-color: #F2F2F2;
     padding: 7px;
     border-radius: 8px 0 0 8px;
-}
-h1{
-    font-size: 15px;
-    font-weight: bold;
-    margin-bottom: 0;
 }
 p{
     font-weight: 500;
@@ -201,7 +196,7 @@ p{
     background-color: white;
     border-radius: 15px;
     margin: 15px 20px 10px 20px;
-    padding: 3px;
+    padding: 4px;
     box-shadow: 0 5px 8px rgba(128, 128, 128, 0.192);
 }
 .hebergement img{
@@ -236,10 +231,12 @@ p{
 .marseille h1{
     margin-left: 30px;
 }
-.marseille h2 a{
+.marseille span a{
+    font-size: 0.9em;
+    font-weight: bold;
     margin-left: 30px;
 }
-.marseille h2:hover{
+.marseille span:hover{
     color: #0065FC;
     cursor: pointer;
 }
@@ -271,7 +268,7 @@ p{
     background-color: white;
     border-radius: 15px;
     margin: 15px 0 10px 0;
-    padding: 3px;
+    padding: 4px;
     box-shadow: 0 5px 8px rgba(128, 128, 128, 0.192);
 }
 .populaire_titre{
