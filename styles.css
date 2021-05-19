@@ -180,7 +180,7 @@ p{
     padding: 20px;
 }
 .marseille{
-    max-width: 100%;
+    width: 70%;
     margin-right: 20px;
     padding: 20px 0 20px 0;
 }
@@ -205,6 +205,7 @@ p{
     box-shadow: 0 5px 8px rgba(128, 128, 128, 0.192);
 }
 .hebergement img{
+    object-fit: cover;
     max-width: 100%;
     height: 100px;
     border-radius: 10px 10px 0 0;
@@ -240,8 +241,7 @@ p{
 }
 /*---SECTION POPULAIRE---*/
 #populaires{
-    max-width: 300px;
-    min-width: 250px;
+    width: 30%;
     background-color: #F2F2F2;
     border-radius: 15px;
     padding: 20px;
@@ -268,6 +268,7 @@ p{
     border-radius: 15px;
     margin: 15px 0 10px 0;
     padding: 3px;
+    box-shadow: 0 5px 8px rgba(128, 128, 128, 0.192);
 }
 .populaire_titre{
     display: flex;
