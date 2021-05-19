@@ -11,7 +11,7 @@ h2{
     font-weight: 700;
 }
 p, a{
-    font-size: 10px;
+    font-size: 0.8em;
 }
 /*--- HEADER ---*/
 header{
@@ -25,7 +25,7 @@ header img{
 }
 header nav li{
     display: inline;
-    font-size: 10px;
+    font-size: 0.9em;
     font-weight: 600;
     list-style: none;
     padding: 10px 20px 10px 20px;
@@ -34,10 +34,9 @@ header a{
     color: black;
     text-decoration: none;
 }
-header a:focus, header a:active{
+header a:focus, header a:active, header a:hover{
     color: #0065FC;
-    font-weight: 600;
-    padding: 20px 20px 20px 20px;
+    padding: 25px 20px 20px 20px;
     border-top: #0065FC solid;
 }
 header strong{
@@ -62,22 +61,24 @@ header strong{
 }
 .input{
     border: 1px solid #F2F2F2;
-    height: 25px;
+    padding-left: 10px;
+    height: 42px;
 }
 ::-webkit-input-placeholder{
     color: black;
     font-family: 'Raleway', sans-serif;
-    font-size: 10px;
+    margin-left: 10px;
+    font-size: 14px;
     font-weight: 600;
 }
 .button{
     text-decoration: none;
     background-color: #0065FC;
     color: white;
-    font-family:'Raleway';
+    font-family:'Raleway', sans-serif;
     border: none;
-    height: 25px;
-    font-size: 10px;
+    height: 42px;
+    font-size: 14px;
     padding: 0 10px 0 10px;
     border-radius: 0 8px 8px 0;
 }
@@ -89,15 +90,14 @@ header strong{
     visibility: hidden;
 }
 .barre_recherche i{
-    font-size: 12px;
+    font-size: 20px;
     text-align: center;
     background-color: #F2F2F2;
-    padding: 7px;
+    padding: 11px;
     border-radius: 8px 0 0 8px;
 }
 p{
-    font-weight: 500;
-    margin-top: 8px;
+    font-weight: 500;   
 }
 /*Filtres*/
 .filtres{
@@ -157,9 +157,6 @@ p{
     border-radius: 50%;
     border: 2px solid #d1d1d1c4;
 }
-.information p{
-    font-size: 10px;
-}
 
 
 /*---SECTION HEBERGEMENT---*/
@@ -171,11 +168,11 @@ p{
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 20px;
 }
 .marseille{
-    width: 70%;
+    width: 75%;
     margin-right: 20px;
     padding: 20px 0 20px 0;
 }
@@ -186,7 +183,9 @@ p{
 }
 .marseille_hebergements h2, .sous_populaires h2{
     font-size: 1.1em;
-    margin: 2px;
+}
+.sous_hebergement h2{
+    margin: 5px 0 5px 0;
 }
 .hebergement{
     display: flex;
@@ -210,7 +209,7 @@ p{
     color: black;
 }
 .sous_hebergement{
-    margin-top: 3px;
+    margin-top: 5px;
     margin-left: 5px;
 }
 .star{
@@ -225,27 +224,27 @@ p{
     margin: 0 1px 5px 1px;
 }
 .hebergement p{
-    margin: 2px;
-    margin-top: 3px;
+    margin: 5px 0 5px 0;
 }
 .marseille h1{
     margin: 5px 0 0 30px;
 }
 .marseille span{
-    margin-top: 15px;
+    margin-top: 20px;
 }
 .marseille span a{
     font-size: 0.9em;
     font-weight: bold;
     margin-left: 30px;
 }
-.marseille span:hover{
+
+#hebergement span a:hover{
     color: #0065FC;
     cursor: pointer;
 }
 /*---SECTION POPULAIRE---*/
 #populaires{
-    width: 30%;
+    width: 25%;
     background-color: #F2F2F2;
     border-radius: 15px;
     padding: 20px;
@@ -306,17 +305,19 @@ p{
     margin: 30px;
 }
 .activites h1{
-    margin-left: 10px;
+    margin: 10px 0 0 10px;
 }
 #activites{
     display: flex;
-    justify-content: space;
+    justify-content: space-between;
     flex-direction: row;
     margin-top: 10px;
 }
 .sous_activites{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
 }
 .sous_activites h2{
     margin: 10px;
@@ -326,14 +327,14 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 170px;
+    width: 100%;
     height: 300px;
     margin: 10px;
 }
 .sous_activites_1{
     display: flex;
     flex-direction: column;
-    width: 170px;
+    width: 100%;
     height: 300px;
     border-radius: 15px;
     margin: 10px;
@@ -343,21 +344,21 @@ p{
     display: flex;
     justify-content: space-between;
     object-fit: cover;
-    max-width: 170px;
+    max-width: 100%;
     height: 270px;
     border-radius: 15px 15px 0 0;
 }
 .sous_activites_2, .sous_activites_3{
     display: flex;
     flex-direction: column;
-    width: 170px;
+    width: 100%;
     height: 140px;
     border-radius: 15px;
     box-shadow: 0 5px 8px rgba(128, 128, 128, 0.192);
 }
 .sous_activites_2 img, .sous_activites_3 img{
     object-fit: cover;
-    max-width: 170px;
+    max-width: 100%;
     height: 100px;
     border-radius: 15px 15px 0 0;
 }
