@@ -214,6 +214,10 @@ p{
     text-decoration: none;
     color: black;
 }
+.sous_hebergement{
+    margin-top: 3px;
+    margin-left: 5px;
+}
 .star{
     display: flex;
     align-items: center;
