@@ -192,7 +192,7 @@ p{
     display: flex;
     flex-direction: column;
     width: 27%;
-    height: 150px;
+    height: 160px;
     background-color: white;
     border-radius: 15px;
     margin: 15px 20px 10px 20px;
@@ -230,6 +230,9 @@ p{
 }
 .marseille h1{
     margin: 5px 0 0 30px;
+}
+.marseille span{
+    margin-top: 15px;
 }
 .marseille span a{
     font-size: 0.9em;
@@ -289,7 +292,12 @@ p{
     width: 30%;
     height: 100%;
 }
-
+.titre_populaires{
+    margin-top: 5px;
+}
+.titre_populaires h1{
+    margin:0;
+}
 
 /*---SECTION ACTIVITES---*/
 .activites{
