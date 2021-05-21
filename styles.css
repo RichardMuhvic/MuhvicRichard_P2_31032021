@@ -312,6 +312,7 @@ p{
     justify-content: space-between;
     flex-direction: row;
     margin-top: 10px;
+    height: 400px;
 }
 .sous_activites{
     display: flex;
