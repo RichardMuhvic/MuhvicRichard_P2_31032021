@@ -21,9 +21,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin-left: 20px;
-    margin-bottom: 5px;
-    width: 85%;
+    margin: 10px 25px 10px 25px;
+    width: 90%;
 }
 .logo a{
     margin-bottom: 10px;
@@ -155,6 +154,7 @@ header li:nth-child(0n+3){
 .marseille{
     align-items: center;
     background-color: white;
+    width: 100%;
 }
 .marseille h2{
     margin: 0;
