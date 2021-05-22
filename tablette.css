@@ -132,15 +132,27 @@ header li:nth-child(0n+3){
 
 /*---HEBERGEMENT---*/
 #hebergement{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column-reverse;
     border-radius: 0;
-    margin: 0;  
+    margin: 0;
+    width: 100%;
+}
+.marseille_hebergements{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 .hebergement{
-    width: 340px;
+    width: 100%;
+    margin: 10px 0 10px 0;
 }
 .hebergement img{
-    max-width: 340px;
+    max-width: 100%;
     object-fit: cover;
 }
 .sous_hebergement{
@@ -152,9 +164,12 @@ header li:nth-child(0n+3){
     margin: 0;
 }
 .marseille{
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     background-color: white;
-    width: 100%;
+    width: 90%;
 }
 .marseille h2{
     margin: 0;
@@ -168,7 +183,7 @@ header li:nth-child(0n+3){
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 90%;
 }
 .populaire{
     width: 100%;
@@ -192,25 +207,38 @@ header li:nth-child(0n+3){
 /*---ACTRIVITES---*/
 #activites{
     flex-direction: column;
+    height: 100%;
+    display: flex;
+    justify-self: center;
+    align-items: center;
 }
 .sous_activites{
     flex-direction: column;
 }
 .sous_activites a{
-    width: 340px;
+    width: 90%;
     height: 140px;
 }
-.sous_activites_1 img, .sous_activites_2 img, .sous_activites_3 img{
-    max-width: 340px;
-    height: 100px;
+.sous_activites_1{
+    margin-top: 0px;
+}
+.sous_activites_2, .sous_activites_3, .sous_activites_4, .sous_activites_5{
+    margin-bottom: 20px;
+    width: 100%;
+}
+.sous_activites_1 img, .sous_activites_2 img, .sous_activites_3 img, .sous_activites_4, .sous_activites_5{
+    width: 100%;
+    height: 100%;
 }
 .activites{
     margin: 0px;
+    display: flex;
+    justify-self: center;
     align-items: center;
 }
-
 .sous_sous_activites{
     flex-direction: column;
+    margin-bottom: 0px;
 }
 
 
