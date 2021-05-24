@@ -23,18 +23,11 @@ header{
     justify-content: space-between;
     align-items: flex-end;
     margin: 10px 25px 10px 25px;
-    width: 90%;
 }
 .logo a{
     margin-bottom: 10px;
 }
-.inscrire{
-    font-size: 0.9em;
-    font-weight: 600;
-    color: #0065FC;
-    border: none;
-    visibility: inherit;
-}
+
 header img{
     height: 50px;
 }
@@ -69,10 +62,6 @@ header a:hover{
 header nav ul li a{
     font-size: 0.9em;
     font-weight: 300;
-}
-header li:nth-child(0n+3){
-    visibility: collapse;
-    display: none;
 }
 
 /*---RECHERCHE---*/
@@ -243,7 +232,7 @@ header li:nth-child(0n+3){
 }
 
 
-/*---FOOOTER---*/
+/*---FOOTER---*/
 footer{
     flex-direction: column;
 }
