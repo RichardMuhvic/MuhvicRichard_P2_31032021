@@ -44,7 +44,6 @@ header ul{
 header img{
     height: 30px;
 }
-
 header nav li{
     display: inline;
     flex-wrap: wrap;
@@ -125,7 +124,7 @@ p{
     align-items: center;
     justify-content: space-between;
     margin: 10px 0 0 0;
-    max-width: 800px;
+    max-width: 80%;
 }
 .filtres div{
     position: relative;
@@ -136,7 +135,12 @@ p{
     color: #0065FC;
     cursor: pointer;
 }
-
+.sous_filtres{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+}
 .filtres i{
     font-size: 15px;
     width: 15px;

@@ -18,6 +18,7 @@ p{
     flex-flow: row wrap;
     margin:0;
 }
+
 .element:nth-child(1)
 {
     order: 1;
@@ -45,7 +46,6 @@ p{
 header ul{
     padding: 0;
 }
-
 header nav li{
     text-align: center;
     font-size: 0.9em;
@@ -110,6 +110,9 @@ header nav ul li a{
 }
 .filtres_titre{
     margin: 10px 10px 0 10px;
+}
+.sous_filtres{
+    flex-flow: row wrap;
 }
 .filtres div{
    margin: 0 10px 0 10px;
