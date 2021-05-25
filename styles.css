@@ -14,16 +14,37 @@ p, a{
     font-size: 0.8em;
 }
 /*--- HEADER ---*/
-header img{
-    height: 30px;
-}
-header nav{
+.menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
-    margin:0px 30px 30px 30px;
 }
+
+.element:nth-child(1)
+{
+    flex: 1;
+    order: 1;
+}
+.element:nth-child(2)
+{
+    order: 2;
+}
+.element:nth-child(3)
+{
+    order: 3;
+}
+.element:nth-child(4)
+{
+    order: 4;
+}
+
+header ul{
+    padding: 0;
+}
+header img{
+    height: 30px;
+}
+
 header nav li{
     display: inline;
     flex-wrap: wrap;

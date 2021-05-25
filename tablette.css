@@ -13,36 +13,44 @@ p{
     font-size: 1em;
 }
 /*---HEADER---*/
-header{
+.menu{
     align-items: flex-start;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     margin:0;
 }
+.element:nth-child(1)
+{
+    order: 1;
+}
+.element:nth-child(2)
+{
+    order: 3;
+    border-bottom: #F2F2F2 solid;
+}
+.element:nth-child(3)
+{
+    order: 4;
+    border-bottom: #F2F2F2 solid;
+}
+.element:nth-child(4)
+{
+    order: 2;
+}
 
-header img{
+.menu img{
     height: 50px;
     margin: 10px 0 0 20px;
-}
-header nav{
-    flex-wrap: wrap;
-    width: 100%;
-    margin: 0;
+    border-bottom: none;
 }
 header ul{
     padding: 0;
 }
-header nav ul{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-}
+
 header nav li{
     text-align: center;
     font-size: 0.9em;
     padding: 15px;
-    border-bottom: #F2F2F2 solid;
-    width: 100%;
+    width: 40%;
 }
 header nav ul li:hover{
     color:#0065FC;
@@ -55,7 +63,7 @@ header a:hover{
 }
 header nav ul li a{
     font-size: 0.9em;
-    font-weight: 300;
+    font-weight: 600;
 }
 
 /*---RECHERCHE---*/
