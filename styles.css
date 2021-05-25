@@ -132,7 +132,7 @@ p{
     display: flex;
     align-items: center;
 }
-.filtres div:hover{
+.sous_filtres div:hover{
     color: #0065FC;
     cursor: pointer;
 }
