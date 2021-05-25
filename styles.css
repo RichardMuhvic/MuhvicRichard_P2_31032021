@@ -20,6 +20,13 @@ header{
     align-items: center;
     margin:  0px 30px 30px 30px;
 }
+.logo{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
 header img{
     height: 30px;
 }
@@ -42,9 +49,6 @@ header a:focus, header a:active, header a:hover{
 header strong{
     color: #0065FC;
     font-weight: 600;
-}
-.inscrire{
-    visibility: hidden;
 }
 
 
