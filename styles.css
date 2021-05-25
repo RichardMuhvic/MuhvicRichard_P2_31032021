@@ -14,24 +14,19 @@ p, a{
     font-size: 0.8em;
 }
 /*--- HEADER ---*/
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin:  0px 30px 30px 30px;
-}
-.logo{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
 header img{
     height: 30px;
 }
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:0px 30px 30px 30px;
+}
 header nav li{
     display: inline;
+    flex-wrap: wrap;
     font-size: 0.9em;
     font-weight: 600;
     list-style: none;
