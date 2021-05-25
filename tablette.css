@@ -178,9 +178,6 @@ header nav ul li a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90%;
-}
-.populaire{
     width: 100%;
 }
 .titre_populaires{

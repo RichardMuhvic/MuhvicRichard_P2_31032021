@@ -44,6 +44,7 @@ header ul{
 header img{
     height: 30px;
 }
+
 header nav li{
     display: inline;
     flex-wrap: wrap;
@@ -141,7 +142,7 @@ p{
     justify-content: space-between;
     width: 90%;
 }
-.filtres i{
+.sous_filtres i{
     font-size: 15px;
     width: 15px;
     height: 15px;
@@ -156,7 +157,7 @@ p{
     font-size: 15px;
     font-weight: bold;
 }
-.filtres div h2{
+.sous_filtres h2{
     font-size: 13px;
     font-weight: 600;
     padding: 10px;
