@@ -178,7 +178,7 @@ p{
 .marseille_hebergements, .sous_populaire{
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 .marseille_hebergements h2, .sous_populaires h2{
     font-size: 1.1em;
@@ -190,6 +190,7 @@ p{
     display: flex;
     flex-direction: column;
     width: 27%;
+    min-width: 162px;
     height: 160px;
     background-color: white;
     border-radius: 15px;
@@ -266,7 +267,7 @@ p{
     flex-direction: row;
     align-items: center;
     position: relative;
-    width: 100%;
+    width: 95%;
     height: 110px;
     background-color: white;
     border-radius: 15px;
