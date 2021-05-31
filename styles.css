@@ -313,6 +313,9 @@ p{
     height: 100px;
     margin:  0 10px 0 10px;
 }
+.populaire_titre:hover{
+    color: #0065FC;
+}
 .populaire_sous_titre{
     display: flex;
     flex-direction: column;
@@ -366,7 +369,9 @@ p{
     background-color: white;
     border-radius: 0 0 15px 15px;
     padding: 5px;
-
+}
+.activites_legende:hover{
+    color:#0065FC;
 }
 .sous_activites h2{
     font-size: 1em;
