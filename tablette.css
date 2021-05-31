@@ -38,29 +38,28 @@ p{
     order: 2;
 }
 
+.border_item a:focus, .borderr_item a:active, .border_item a:hover{
+    border-bottom: #0065FC solid;
+    width: 50%;
+    padding-bottom: 15px;
+    border-top: none;
+}
 .menu img{
     height: 50px;
     margin: 10px 0 0 20px;
     border-bottom: none;
 }
 header ul{
+    margin: 0;
     padding: 0;
 }
 header nav li{
     text-align: center;
     font-size: 0.9em;
     padding: 15px;
-    width: 40%;
+    width: 45%;
 }
-header nav ul li:hover{
-    color:#0065FC;
-    border-bottom: #0065FC solid;
-    width: 100%;
-}
-header a:hover{
-    color: #0065FC;
-    font-weight: 600;
-}
+
 header nav ul li a{
     font-size: 0.9em;
     font-weight: 600;
