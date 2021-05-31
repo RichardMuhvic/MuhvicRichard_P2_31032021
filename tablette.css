@@ -256,3 +256,6 @@ footer li{
     margin-top: 2px;
     margin-bottom: 2px;
 }
+footer li a:hover{
+    color: #0065FC;
+}
