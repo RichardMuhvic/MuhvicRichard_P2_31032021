@@ -14,11 +14,11 @@ p{
 }
 /*---HEADER---*/
 .menu{
-    align-items: flex-start;
+    align-items: center;
     flex-flow: row wrap;
-    margin:0;
+    margin-top: 15px;
+    margin:;
 }
-
 .element:nth-child(1)
 {
     order: 1;
@@ -41,12 +41,13 @@ p{
 .border_item a:focus, .borderr_item a:active, .border_item a:hover{
     border-bottom: #0065FC solid;
     padding-bottom: 20px;
-    width: 50%;
+    padding-right: 27%;
+    padding-left: 27%;
     border-top: none;
 }
 .menu img{
     height: 50px;
-    margin: 10px 0 0 20px;
+    margin: 0;
     border-bottom: none;
 }
 header ul{
