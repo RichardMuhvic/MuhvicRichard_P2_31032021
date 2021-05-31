@@ -231,6 +231,7 @@ header nav ul li a{
 }
 .sous_sous_activites{
     flex-direction: column;
+    align-items: center;
     margin-bottom: 0px;
 }
 .activites h1{
