@@ -206,6 +206,7 @@ header nav ul li a{
 }
 .sous_activites{
     flex-direction: column;
+    align-items: center;
 }
 .sous_activites a{
     width: 90%;
