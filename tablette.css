@@ -232,7 +232,9 @@ header nav ul li a{
     flex-direction: column;
     margin-bottom: 0px;
 }
-
+.activites h1{
+    margin: 0;
+}
 
 /*---FOOTER---*/
 footer{
