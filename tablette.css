@@ -38,7 +38,7 @@ p{
     order: 2;
 }
 
-.border_item a:focus, .borderr_item a:active, .border_item a:hover{
+.border_item a:focus, .border_item a:active, .border_item a:hover{
     border-bottom: #0065FC solid;
     padding-bottom: 20px;
     padding-right: 32%;
@@ -165,6 +165,9 @@ header nav ul li a{
     justify-content: center;
     background-color: white;
     width: 90%;
+}
+.marseille h1{
+    margin:0;
 }
 .marseille h2{
     margin: 0;
