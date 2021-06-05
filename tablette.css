@@ -41,8 +41,6 @@ p{
 .border_item a:focus, .border_item a:active, .border_item a:hover{
     border-bottom: #0065FC solid;
     padding-bottom: 20px;
-    padding-right: 32%;
-    padding-left: 32%;
     border-top: none;
 }
 .menu img{
