@@ -38,10 +38,14 @@ p{
     order: 2;
 }
 
-.border_item a:focus, .border_item a:active, .border_item a:hover{
-    border-bottom: #0065FC solid;
+li.element.border_item:focus, li.element.border_item:active, li.element.border_item:hover{
+    
     padding-bottom: 20px;
     border-top: none;
+}
+.border_item a:active, .border_item a:focus, .border_item a:hover{
+    border-top: none;
+    border-bottom: #0065FC solid;
 }
 .menu img{
     height: 50px;

@@ -61,7 +61,7 @@ header a{
 }
 .border_item a:focus, .borderr_item a:active, .border_item a:hover{
     color: #0065FC;
-    padding: 18px 20px 25px 20px;
+    padding: 18px 20px 20px 20px;
     border-top: #0065FC solid;
 }
 header strong{
@@ -255,7 +255,7 @@ p{
     margin: 5px 0 5px 0;
 }
 .marseille h1{
-    margin: 5px 0 0 30px;
+    margin: 5px 0 0 24px;
 }
 .marseille span{
     margin-top: 20px;
@@ -263,7 +263,7 @@ p{
 .marseille span a{
     font-size: 0.9em;
     font-weight: bold;
-    margin-left: 30px;
+    margin-left: 24px;
 }
 .sous_hebergement:hover{
     color: #0065FC;
@@ -282,7 +282,7 @@ p{
 .titre_populaires{
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 }
 .titre_populaires i:hover{
     color: #0065FC;
