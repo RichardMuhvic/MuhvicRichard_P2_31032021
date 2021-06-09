@@ -37,16 +37,23 @@ p{
 {
     order: 2;
 }
-
-li.element.border_item:focus, li.element.border_item:active, li.element.border_item:hover{
-    
+.menu li:nth-child(2):hover, .menu li:nth-child(3):hover{
+    border-top: none;
+}
+.border_item{
+    width: 50%;
+}
+.border_item:hover{
+    border-bottom: #0065FC solid;
+    color: #0065FC;
     padding-bottom: 20px;
     border-top: none;
 }
-.border_item a:active, .border_item a:focus, .border_item a:hover{
+.border_item a:hover{
+    color: #0065FC;
     border-top: none;
-    border-bottom: #0065FC solid;
 }
+
 .menu img{
     height: 50px;
     margin: 0;
@@ -163,7 +170,6 @@ header nav ul li a{
 .marseille{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     background-color: white;
     width: 90%;
@@ -197,7 +203,7 @@ header nav ul li a{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 90%;
+    width: 95%;
 }
 
 
