@@ -59,10 +59,15 @@ header a{
     color: black;
     text-decoration: none;
 }
-.border_item a:focus, .borderr_item a:active, .border_item a:hover{
+.menu li:nth-child(2):hover, .menu li:nth-child(3):hover{
+    border-top: 3px solid #0065FC;
+}
+.border_item{
+    text-align: center;
+    width: 10%;
+}
+.border_item a:focus, .border_item a:active, .border_item a:hover{
     color: #0065FC;
-    padding: 18px 20px 20px 20px;
-    border-top: #0065FC solid;
 }
 header strong{
     color: #0065FC;
@@ -71,7 +76,7 @@ header strong{
 
 
 /*--- SECTION RECHERCHE ---*/
-/*Barre de recherche*/
+/*Barre de recherche*/g
 .recherche{
     margin: 30px 30px 20px 30px;
 }
