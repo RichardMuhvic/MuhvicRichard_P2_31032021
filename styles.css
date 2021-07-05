@@ -45,13 +45,13 @@ header ul{
     padding: 0;
 }
 header img{
-    height: 30px;
+    height: 40px;
 }
 
 header nav li{
     display: inline;
     flex-wrap: wrap;
-    font-size: 0.9em;
+    font-size: 1em;
     font-weight: 600;
     list-style: none;
     padding: 10px 25px 15px 25px;
@@ -133,7 +133,8 @@ p{
     align-items: center;
     justify-content: space-between;
     margin: 10px 0 0 0;
-    max-width: 80%;
+    max-width: 55%;
+    min-width: 50%;
 }
 .filtres div{
     position: relative;
